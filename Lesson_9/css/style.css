@@ -1,0 +1,43 @@
+h1 {
+  margin: 5rem 0;
+}
+.header span {
+  display: block;
+}
+.form {
+  border: 5px solid #2727d9;
+  padding: 1.8rem 1rem;
+}
+.h2,
+input {
+  margin-bottom: 1.5rem;
+}
+input {
+  padding: 1.5rem;
+}
+.my-btn {
+  background-color: #2727d9;
+  padding: 1rem 0;
+}
+.my-hdr {
+  font-weight: 800;
+  color: #333333;
+  margin: 5rem 0;
+}
+.featcher {
+  margin: 5rem 0;
+}
+.featcher-box img {
+  height: 4rem;
+  margin-bottom: 1rem;
+}
+.client {
+  width: 15rem;
+  height: 15rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.client img {
+  max-width: inherit;
+  height: 100%;
+}
