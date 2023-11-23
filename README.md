@@ -9,7 +9,7 @@
 
 [Домашка за 7 урок:](https://churadey.github.io/Lesson_7) - Первый одностраничный неадаптивный сайт
 
-[Домашка за 8 урок:](https://churadey.github.io/Lesson_8) [и flex](https://churadey.github.io/lesson_8flex) -  позиционирование иконок с помощью bootstrap3
+[Домашка за 8 урок:](https://churadey.github.io/Lesson_8)  -  позиционирование иконок с помощью bootstrap3 [и flex](https://churadey.github.io/lesson_8flex)
 
 [Домашка за 9 урок:](https://churadey.github.io/Lesson_9) - Одностраничный сайт с помощью bootstrap
 
