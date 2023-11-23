@@ -1,0 +1,31 @@
+* {
+	text-align: center;
+	font-family: sans-serif;
+}
+h1 {
+	font-size: 34px;
+	text-transform: uppercase;
+}
+.flex-conteiner {
+ display: flex;
+ background-color: grey;
+ justify-content: space-around;
+ flex-wrap: wrap; /* лишние иконки переносятся в зависимости от ширины*/
+}
+.flex-icon {
+	background-color: red; /* ширина определяется шириной самого широкого элемента в контенте*/
+}
+.flex-icon img {
+	border: 1px solid blue;
+	display: block;
+	width: auto;
+	height: 100px;
+	margin-left: auto;/* если не указать, то не ставит по середине, другие способы не сработали*/
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+span {
+	font-size: 18px;
+}
+
+
