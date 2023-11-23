@@ -1,0 +1,23 @@
+* {
+	text-align: center;/*всё по центру везде*/
+}
+h1{
+	margin-bottom: 90px;
+	font-size: 34px;
+	text-transform: uppercase;
+}
+/* выравниваем свойствами фиксированной высоты самой иконки по вертикали 
+и общий text-align: center; */
+.icon {
+	/*text-align: center;*/
+	border: 1px solid red;
+}
+.icon img {
+	margin-bottom: 20px;
+	displey: block;
+	width: auto; /*ширина контейнера плавающая, адаптивная бутстрепом*/
+	height: 130px;
+}
+span {
+	font-size: 18px;
+}
