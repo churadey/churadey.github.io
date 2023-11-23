@@ -1,0 +1,60 @@
+.central {
+  marging: 5px 0;
+  padding: 1em;
+  text-align: justify;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+}
+.central-head {
+  background: #362c39;
+  color: #fff;
+  padding: 1rem;
+}
+.central-content {
+  padding: 10px;
+  font-weight: 400;
+  display: block;
+  font-size: 1rem;
+}
+.central h1,
+.central h2,
+.central h3 {
+  font-weight: 900;
+  text-align: center;
+}
+.central h2 {
+  text-decoration: underline;
+}
+.central-intro {
+  border: 1px solid #362c39;
+  padding: 10px;
+}
+.central-main {
+  padding: 10px;
+  border: 1px solid #362c39;
+  font-size: 16px;
+}
+.central .epigraf {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: 0;
+  width: 50%;
+  text-align: right;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+.central .signature {
+  text-align: left;
+  font-weight: bold;
+  font-style: italic;
+}
+.central .bold {
+  font-weight: bold;
+}
+.central .not {
+  text-decoration: line-through;
+  -webkit-text-decoration-color: red;
+          text-decoration-color: red;
+}
