@@ -1,0 +1,60 @@
+@main: #ebf4f4;
+@button: #01bcbc;
+@form: #ffffff;
+* {
+	box-sizing: border-box;
+}
+.main {
+	width: 570px;
+	height: 570px;
+	background-color: @main;
+	font-family: arial;
+	font-size: 12px;
+	padding: 100px 125px;
+	}
+
+.form {
+		width: 320px;
+		height: 370px;
+		background-color: @form;
+		padding-left: 30px;
+		&-center {
+
+			padding-top: 55px;
+			
+		}
+		&-header, &-button {
+			display: box;
+			background-color: @button;
+			color: @form;
+			text-transform: uppercase;
+			font-weight: bold;
+			text-align: center;
+		}
+		&-header {	
+			position: absolute;	
+			width: 150px;
+			height: 25px;
+			margin-top: -5px;
+			padding-top: 8px;
+		}
+		&-label strong {
+				color: @button;
+			}
+		&-button, &-input {
+			width: 260px;
+			border: none;
+		}
+		&-input {
+			display: box;
+			height: 30px;
+			background-color: @main;
+			padding: 10px;
+			font-style: italic;
+		}
+		&-button {
+			margin-top: 35px;
+			height: 45px;
+		}
+		
+  }
