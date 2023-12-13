@@ -1,0 +1,47 @@
+/* Colors */
+@btn-color: #fcb303;
+@icons-color: #46b814;
+@text: #1a1820;
+@danger: #ff0000;
+@bg-light: #f5f5f5;
+@light: #ffffff;
+
+/*Basic setting */
+html {
+	font-size: 10px;
+}
+.header {
+	height: 7rem;
+}
+.wrap {
+display: table; /*выравнивание кнопки по вертикали по центру с помощью элемента wrap - таблица/ячейка */
+width: 100%;
+height: 7rem;
+&-block {
+	display: table-cell;
+	vertical-align: middle;
+	}
+}
+.button {
+	background-color: @btn-color;
+	color: @light;
+	padding: 1rem 3rem;
+	border-radius: 0.5rem;
+	border: none;
+	text-transform: uppercase;
+}
+.phonelink {
+	display: inline-block;
+	color: @text;
+	font-size: 2rem;
+	font-weight: 500;
+	height: 7rem;
+	line-height: 7rem; /* выравнивание 1 строки в блоке по середине с помощью одинаковой высоты*/
+}
+/* Typography */
+section {
+	padding: 10rem 0;
+}
+main {
+padding: 3rem 0;
+}
