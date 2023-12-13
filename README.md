@@ -19,4 +19,4 @@
 
 [Домашка за 14 урок:](https://churadey.github.io/Lesson_14) - Практическая вёрстка. Начало.
 
-[Домашка за 18 урок:](https://churadey.github.io/fonts-viewer) - Подключение шрифтов.fonts-viewer
+[Домашка по шрифтам:](https://churadey.github.io/fonts-viewer) - Подключение шрифтов.fonts-viewer
