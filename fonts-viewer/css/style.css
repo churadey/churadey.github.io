@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap');
 
 @font-face {
     font-family: 'Bebas Neue';
@@ -25,9 +25,6 @@
     font-style: normal;
     font-display: swap;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap');
-
 
 .text-box{
 	padding-top: 2rem;
