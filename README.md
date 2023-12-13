@@ -18,3 +18,5 @@
 [Домашка за 13 урок:](https://churadey.github.io/Lesson_13) - Форма пиксель в пиксель
 
 [Домашка за 14 урок:](https://churadey.github.io/Lesson_14) - Практическая вёрстка. Начало.
+
+[Домашка за 18 урок:](https://churadey.github.io/fonts-viewer) - Подключение шрифтов.fonts-viewer
