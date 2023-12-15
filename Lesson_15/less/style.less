@@ -1,0 +1,154 @@
+/* шрифты*/
+@font-face {
+  font-family: 'ProximaNova_Bold';
+  src: url('../font/subset-ProximaNova-Bold.eot');
+  src: url('../font/subset-ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../font/subset-ProximaNova-Bold.woff2') format('woff2'), url('../font/subset-ProximaNova-Bold.woff') format('woff'), url('../font/subset-ProximaNova-Bold.ttf') format('truetype'), url('../font/subset-ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ProximaNova_Rg';
+  src: url('../font/subset-ProximaNova-Regular.eot');
+  src: url('../font/subset-ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../font/subset-ProximaNova-Regular.woff2') format('woff2'), url('../font/subset-ProximaNova-Regular.woff') format('woff'), url('../font/subset-ProximaNova-Regular.ttf') format('truetype'), url('../font/subset-ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.reg() {
+	font-family: 'ProximaNova_Rg', sans-serif;
+}
+.bold() {
+	font-family: 'ProximaNova_Bold', sans-serif;
+}
+/* Colors */
+@btn-color: #fcb303;
+@icons-color: #46b814;
+@text: #1a1820;
+@danger: #ff0000;
+@bg-light: #f5f5f5;
+@light: #ffffff;
+@border-color: #dddddd;
+
+/*Basic setting */
+html {
+	font-size: 10px;
+}
+.header {
+	height: 7rem;
+}
+.wrap {
+display: table; /*выравнивание кнопки по вертикали по центру с помощью элемента wrap - таблица/ячейка */
+width: 100%;
+height: 7rem;
+&-block {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: right;
+	}
+}
+body {
+	.reg()
+}
+.button {
+	padding: 1rem 3rem;
+	border-radius: 0.5rem;
+	font-size: 1.2rem;
+	background-color: @btn-color;
+	color: @light;
+	border: none;
+	text-transform: uppercase;
+}
+.phonelink {
+	display: inline-block;
+	.bold();
+	font-size: 1.8rem;
+	font-weight: 800;
+	height: 7rem;
+	line-height: 7rem; /* выравнивание 1 строки в блоке по середине с помощью одинаковой высоты*/
+	color: @text;
+}
+/* Typography */
+section {
+	padding: 10rem 0;
+}
+.main {
+padding: 2rem 0;
+background: #fff url(../img/MainBG.jpg) center 0 no-repeat;
+background-size: cover;
+	&-content {
+		margin-top: 10rem;
+		h1 {
+			margin-top: 0;
+			.bold();
+			font-size: 3rem;
+			line-height: 1.45;
+			text-transform: uppercase;
+		}
+	}
+	&-subtitle {
+		font-size: 1.8rem;
+		font-weight: 600;
+		margin: 5rem 0;
+	}
+	&-label {
+		display: inline-block;
+		padding: 2.5rem 4rem;
+		color: @light;
+		background-color: @icons-color;
+		strong {
+			font-size: 2.5rem;
+			.bold();
+		}
+	}
+	&-trigger {
+		display: block;
+		margin-top: 4rem;
+		font-size: 2rem;
+		font-weight: 800;
+		text-transform: uppercase;
+
+	}
+
+	&-form {
+		padding: 4.5rem 5rem;
+		background-color: @light;
+		text-align: center;
+		&-header {
+			font-size: 1.8rem;
+			margin: 0 0 3.5rem;
+			strong {
+				font-size: 1.9rem;
+			}
+		}
+		&-input {
+		display: block;
+		margin: 2rem 0;
+		width: 100%;
+		border: 1px solid @border-color;
+		padding: 1.5rem;
+		}
+		label {
+			position: absolute;
+			display: inline-block;
+			transform: translateX(-50%) translateY(-50%);
+			padding: 0.5rem;
+			background-color: @light;
+		}
+		&-btn {
+			display: block;
+			height: 6rem;	
+			font-size: 1.8rem;
+			width: 100%;
+
+		}
+		small {
+			display: inline-block;
+			margin-top: 2rem;	
+		}		
+	}
+	&-prim {
+		padding: 2rem 0;
+		text-align: center;
+	}
+}
