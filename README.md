@@ -22,3 +22,7 @@
 [Домашка по шрифтам:](https://churadey.github.io/fonts-viewer) - Подключение шрифтов.fonts-viewer
 
 [Домашка за 15 урок:](https://churadey.github.io/Lesson_15) - Практическая вёрстка. Продолжаем. Первый экран.
+
+[Дополнительная домашка за 15 урок:](https://churadey.github.io/arhiv-s-dz-15-urok) - Затемнение картинок.
+
+
