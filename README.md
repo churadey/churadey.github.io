@@ -26,3 +26,5 @@
 [Дополнительная домашка за 15 урок:](https://churadey.github.io/arhiv-s-dz-15-urok) - Затемнение картинок.
 
 [Домашка за 16 урок:](https://churadey.github.io/Lesson_16) - Практическая вёрстка. Продолжаем. Первый экран в адаптивном варианте.
+
+[Домашка за 16 урок:](https://churadey.github.io/Fotorama) - Слайдер на основе Fotorama.
