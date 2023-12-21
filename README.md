@@ -29,4 +29,4 @@
 
 [Домашка за 16 урок:](https://churadey.github.io/Fotorama) - Слайдер на основе Fotorama.
 
-[Домашка за 17 урок:](https://churadey.github.io/Lesson_17) - Практическая вёрстка. Продолжаем ваять - слайдер.
+[Домашка за 16 урок:](https://churadey.github.io/Lesson_17)  Практическая вёрстка. Продолжаем ваять - слайдер.
