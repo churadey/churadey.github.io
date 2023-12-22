@@ -17,16 +17,18 @@
 
 [Домашка за 13 урок:](https://churadey.github.io/Lesson_13) - Форма пиксель в пиксель
 
-[Домашка за 14 урок:](https://churadey.github.io/Lesson_14) - Практическая вёрстка. Начало.
+[Домашка за Практику, часть 1:](https://churadey.github.io/Lesson_14) - Практическая вёрстка. Начало.
 
-[Домашка по шрифтам:](https://churadey.github.io/fonts-viewer) - Подключение шрифтов.fonts-viewer
+[Домашка за 14 урок:](https://churadey.github.io/fonts-viewer) - Подключение шрифтов.fonts-viewer
 
-[Домашка за 15 урок:](https://churadey.github.io/Lesson_15) - Практическая вёрстка. Продолжаем. Первый экран.
+[Домашка за Практику, часть 2:](https://churadey.github.io/Lesson_15) - Практическая вёрстка. Продолжаем. Первый экран.
 
 [Дополнительная домашка за 15 урок:](https://churadey.github.io/arhiv-s-dz-15-urok) - Затемнение картинок.
 
-[Домашка за 16 урок:](https://churadey.github.io/Lesson_16) - Практическая вёрстка. Продолжаем. Первый экран в адаптивном варианте.
+[Домашка за Практику, часть 3:](https://churadey.github.io/Lesson_16) - Практическая вёрстка. Продолжаем. Первый экран в адаптивном варианте.
 
 [Домашка за 16 урок:](https://churadey.github.io/Fotorama) - Слайдер на основе Fotorama.
 
-[Домашка за 17 урок:](https://churadey.github.io/Lesson_17)  Практическая вёрстка. Продолжаем ваять - слайдер.
+[Домашка за Практику, часть 4:](https://churadey.github.io/Lesson_17)  Практическая вёрстка. Продолжаем ваять - слайдер. MagnificPopup_YesNo
+
+[Домашка за 17 урок:](https://churadey.github.io/MagnificPopup_YesNo) - Окно да/нет на основе Magnific Popup.
