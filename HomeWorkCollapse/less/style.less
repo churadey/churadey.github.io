@@ -1,0 +1,68 @@
+@color: #0bbaf0;
+
+html {
+font-family: Ubuntu, san-serif;
+font-size: 20px;
+}
+ a:focus, a:hover {
+   text-decoration: none;
+}
+.explanation {
+		width: 100%;
+		height: 740px;
+		background: #ffffff url(../img/1.png) center 0 no-repeat;
+		text-align: center;
+		margin: 0;
+		padding-top: 4rem;
+		h1 {
+			font-size: 1.5rem;
+			font-weight: 700;
+			margin: 0;
+		}
+		h2 {
+			margin-top: 1rem;
+			font-size: 1rem;
+		}
+		h1, h2 {
+			color: @color;
+			text-transform: uppercase;
+		}
+		.line {
+			width: 6rem;
+			height: 2px;
+			margin: 1rem auto;
+			border: 2px solid #ddd;
+		} 
+	}
+
+	.panel-group {
+		width: 860px;
+		margin: 1rem auto 0;
+		font-size: 1rem;
+		text-align: left;
+	}
+	.panel-title {
+		color: #ffffff;	
+		font-size: 1rem;
+		
+	}
+	.panel-default>.panel-heading {
+		letter-spacing: 2px;
+		background: @color;
+		border-radius: 0;
+		text-align: center;	
+	}
+
+.panel-default {
+	border: none;
+	background: transparent;
+}
+
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body{
+		width: 850px;
+		background: #fff;
+		margin: 0 auto;
+		border: 3px solid #ddd;
+		border-radius: 0 0 10px 10px;
+		border-top: none;
+	}

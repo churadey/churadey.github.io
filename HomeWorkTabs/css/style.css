@@ -1,0 +1,287 @@
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('../fonts/MyriadPro-Regular.eot');
+  src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/MyriadPro-Regular.woff2') format('woff2'), url('../fonts/MyriadPro-Regular.woff') format('woff'), url('../fonts/MyriadPro-Regular.ttf') format('truetype'), url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+html,
+body {
+  height: 100%;
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 20px;
+}
+body {
+  /*общий фон, описание вкладок в tabs-style.css*/
+  background: #ededed;
+  margin: 0;
+  font-size: 1.2rem;
+}
+.wafer {
+  width: 40rem;
+  height: 25rem;
+  background: #ffffff url(../img/1.png) center 0 no-repeat;
+  margin: 10rem auto;
+  padding: 1rem 4.5rem 2rem;
+}
+/* Стили для табов-вкладок */
+.tabs_block {
+  width: 100%;
+  max-width: 600px;
+  min-width: 300px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.tabs_block:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* панель навигации вкладок */
+.tabs {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+}
+/* список вкладок */
+.tabs li {
+  position: flex;
+  text-align: center;
+  float: left;
+  padding: 0.2rem 2rem;
+  background: #fff;
+  margin-right: 5px;
+  border-radius: 5px 5px 0 0;
+  cursor: pointer;
+  z-index: -2;
+  -webkit-transition: all .2s linear 0s;
+  -webkit-transition-delay: .2s 0s;
+  transition: all .2s linear 0s;
+}
+/* активная вкладка */
+.tabs li.active {
+  position: flex;
+  background: #03a5da;
+  color: #fff;
+  border-top: 2px solid #76cae6;
+  text-shadow: 2px 2px 2px #000000;
+  z-index: 2;
+  margin-bottom: 0;
+}
+.tabs li:first-child {
+  margin-left: 1rem;
+}
+/* блоки вкладок с содержанием */
+.box {
+  background: #03a5da;
+  -webkit-box-shadow: -2px -2px 1px #76cae6;
+          box-shadow: -2px -2px 1px #76cae6;
+  color: #fff;
+  width: 100%;
+  border-radius: 5px;
+  padding: 1rem;
+  display: none;
+  text-align: left;
+  float: left;
+  z-index: 0;
+}
+/* параграф внутри вкладок */
+.box p {
+  margin-bottom: 15px;
+}
+/* активный блок при загрузке */
+.visible,
+.open_tab {
+  display: block;
+}
+/* форма для вкладок */
+.form-enter {
+  position: relative;
+  distlay: block;
+  width: 100%;
+  height: 366px;
+  background: #000000;
+  padding: 45px 45px 40px;
+  border-radius: 5px;
+  border: 2px solid #76cae6;
+}
+.form-enter-input {
+  display: inline-block;
+  background: #fdfdfd url(../img/2.png);
+  width: 100%;
+  height: auto;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.8rem 1rem;
+  margin: 1rem 0;
+  border: none;
+  border-radius: 5px;
+}
+.form-enter-input::-webkit-input-placeholder {
+  color: #fff;
+  font-size: 1.2rem;
+}
+.form-enter-input:-ms-input-placeholder {
+  color: #fff;
+  font-size: 1.2rem;
+}
+.form-enter-input::-ms-input-placeholder {
+  color: #fff;
+  font-size: 1.2rem;
+}
+.form-enter-input::placeholder {
+  color: #fff;
+  font-size: 1.2rem;
+}
+.form-enter-text,
+.form-enter-label {
+  font-size: 0.8rem;
+}
+.form-enter-text {
+  font-weight: 700;
+  color: #9c1002;
+  padding-left: 1rem;
+}
+.form-enter-box {
+  display: inline-block;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.form-enter-label {
+  font-weight: 500;
+  color: grey;
+  margin-top: 1rem;
+}
+.form-enter-btn {
+  position: absolute;
+  display: inline-block;
+  -webkit-transform: translateX(230%) translateY(100%);
+          transform: translateX(230%) translateY(100%);
+  background: -webkit-gradient(linear, left top, right top, from(#7f0501), color-stop(#cf2303), to(#7f0501));
+  background: linear-gradient(to right, #7f0501, #cf2303, #7f0501);
+  border: none;
+  float: right;
+  padding: 0.1rem 1.5rem;
+}
+.reg {
+  /*меняем некоторые свойства второй формы*/
+  padding: 10px 45px;
+  margin: 0.5rem 0;
+}
+.reg .form-enter-btn {
+  -webkit-transform: translateX(15%) translateY(50%);
+          transform: translateX(15%) translateY(50%);
+}
+.reg .form-enter-label {
+  margin-top: 0;
+}
+/* картинки слева */
+.pl-left {
+  float: left;
+  margin: 5px 15px 5px 0;
+}
+/* картинки справа */
+.pl-right {
+  float: right;
+  margin: 5px 0 5px 15px;
+}
+/* убираем выравнивание на маленьких экранах */
+@media (max-width: 300px) {
+  .tabs,
+  .tabs li {
+    float: none;
+  }
+}
+/* 
+ position: absolute;
+            display: inline-block;
+            transform: translateX(200%) 0;
+
+
+
+старый вариант 
+ .tabs {
+    width: 100%;
+    height: 21rem;
+}
+.tabs ul,
+.tabs li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.tabs,
+.tabs input[type="radio"]:checked + label {
+    position: relative;
+}
+.tabs li,
+.tabs input[type="radio"] + label {
+    display: inline-block;
+}
+.tabs li > div,
+.tabs input[type="radio"] {
+    position: absolute;
+}
+.tabs li > div,
+.tabs input[type="radio"] + label {
+    border: solid 2px @bdrcolor;
+    border-radius: 3px;
+}
+.tabs {
+    font-size: 2rem;    
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: normal;
+}
+.tabs li {
+    vertical-align: top;
+}
+.tabs li:first-child {
+    margin-left: 8px;
+}
+.tabs li > div {
+    top: 33px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px;
+    overflow: auto;
+    background: @bgcolor;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.tabs input[type="radio"] + label {
+    margin: 0 2px 0 0;
+    padding: 0 18px;
+    line-height: 32px;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.tabs input[type="radio"]:checked + label {
+    z-index: 1;
+    background: @bgcolor;
+    border-bottom-color: @bgcolor;
+    cursor: default;
+}
+.tabs input[type="radio"] {
+    opacity: 0;
+}
+.tabs input[type="radio"] ~ div {
+    display: none;
+}
+.tabs input[type="radio"]:checked:not(:disabled) ~ div {
+    display: block;
+}
+.tabs input[type="radio"]:disabled + label {
+    opacity: .5;
+    cursor: no-drop;
+}*/
