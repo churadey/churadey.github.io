@@ -34,3 +34,5 @@
 [Домашка за 17 урок:](https://churadey.github.io/MagnificPopup_YesNo) - Окно да/нет на основе Magnific Popup.
 
 [Домашка за Практику, часть 5:](https://churadey.github.io/Lesson_18)  Практическая вёрстка. Первое модальное окно.
+
+[Домашка за 18 урок:](https://churadey.github.io/HomeWorkCollapse) - аккордеон, (https://churadey.github.io/HomeWorkTabs) - вкладки.
