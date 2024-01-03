@@ -36,3 +36,5 @@
 [Домашка за Практику, часть 5:](https://churadey.github.io/Lesson_18)  Практическая вёрстка. Первое модальное окно.
 
 Домашка за 18 урок: [аккордеон](https://churadey.github.io/HomeWorkCollapse) - аккордеон, [вкладки](https://churadey.github.io/HomeWorkTabs) - вкладки.
+
+[Домашка за Практику, часть 6:](https://churadey.github.io/Lesson_6pr) - Практическая вёрстка. Блок с прайсами. Ещё модальные окна и рисунки разного размера.
