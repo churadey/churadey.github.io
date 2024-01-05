@@ -39,6 +39,5 @@
 
 [Домашка за Практику, часть 6:](https://churadey.github.io/Lesson_pr6) - Практическая вёрстка. Блок с прайсами. Ещё модальные окна и рисунки разного размера
 
-Домашка за 19 урок: [аккордеон](https://churadey.github.io/HomeWorkTabs Animated) - вкладки с анимацией
-
+[Домашка за 19 урок:](https://churadey.github.io/HomeWorkTabs_Animated) - всплываюшее окно с анимацией
 
