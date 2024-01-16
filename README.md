@@ -41,3 +41,4 @@
 
 [Домашка за 19 урок:](https://churadey.github.io/HomeWorkTabs_Animated) - всплываюшее окно с анимацией
 
+[Домашка за Практику, часть 7:](https://churadey.github.io/Lesson_pr7) - Практическая вёрстка. Блок с преимуществами. Карусель в карусели:Fotorama в Slick-Slider
