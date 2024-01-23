@@ -44,3 +44,5 @@
 [Домашка за Практику, часть 7:](https://churadey.github.io/Lesson_pr7) - Практическая вёрстка. Блок с преимуществами. Карусель в карусели:Fotorama в Slick-Slider
 
 [Домашка за 20 урок:](https://churadey.github.io/Lesson_20_video) - анимированный фон
+
+[Домашка за Практику, часть 8:](https://churadey.github.io/Lesson_pr8) - Практическая вёрстка. Блок с преимуществами. Форма.
