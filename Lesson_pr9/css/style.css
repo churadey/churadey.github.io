@@ -399,7 +399,7 @@ section {
   max-width: 30%;
 }
 .scheme {
-  background: #ffffff url(../img/scheme/hand.png) bottom 15rem right -8rem no-repeat;
+  background: #ffffff url(../img/scheme/hand.png) bottom right -8rem no-repeat;
   background-size: 65rem;
 }
 .scheme-block {
